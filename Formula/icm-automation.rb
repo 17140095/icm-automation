@@ -4,6 +4,7 @@ class IcmAutomation < Formula
   url "https://github.com/alirazabrame/icm-automation/archive/v1.0.0.tar.gz"
   sha256 "851d49ca67f7ca1f6186a1b12fc956320ba83cdee078a3e57218eeaef58c99ae" # Generate this from your release
   license "MIT"
+  version "1.0.0"
 
   depends_on "gradle" => :optional
   depends_on "openjdk" => :recommended
